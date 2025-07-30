@@ -1,0 +1,104 @@
+COMANDOS GIT HUB
+
+git checkout -b [nome branch]
+git checkout main 
+git checkout [nome branch]
+git pull
+git pull --rebase
+git pull origin joao
+git commit -m "mensagem"
+git push
+git add arquivo
+git add .
+
+
+📌 BLOCO 1 — PERFIL E SEGMENTAÇÃO DE CLIENTES
+Objetivo: identificar grupos de clientes com comportamentos semelhantes para otimizar marketing, comunicação e operação.
+Tópicos:
+Perfil sociodemográfico dos clientes
+Nível educacional médio por cluster
+Distribuição geográfica da base
+Poder aquisitivo por região
+Variáveis para cruzar:
+Cidade × Renda_anual
+Education × Ano_de_nascimento (gerar idade)
+Renda_anual × Banheiros_na_casa e Quartos_na_casa
+Cidade × Motivo
+Education × Motivo
+Motivo × Aulas
+📌 BLOCO 2 — PADRÕES DE CONSUMO (AULAS)
+Objetivo: entender o comportamento de compra de aulas e como ele varia conforme o perfil.
+Tópicos:
+Quem mais compra aulas?
+Tipos de aula mais contratados
+Relação entre renda e número de aulas
+Idade média dos maiores consumidores
+Variáveis para cruzar:
+Num_Aulas × Renda_anual
+Num_Aulas × Education
+Num_Aulas × Cidade
+Num_Aulas × Aulas
+Num_Aulas × Ano_de_nascimento (idade)
+Num_Aulas × Motivo
+Num_Aulas × NPS
+📌 BLOCO 3 — SATISFAÇÃO E NPS
+Objetivo: identificar fatores que influenciam a satisfação dos clientes para orientar melhorias e fidelização.
+Tópicos:
+Perfil de clientes mais satisfeitos (alto NPS)
+Correlação entre consumo e satisfação
+NPS por cidade, tipo de aula e perfil
+Variáveis para cruzar:
+NPS × Num_Aulas
+NPS × Renda_anual
+NPS × Aulas
+NPS × Motivo
+NPS × Cidade
+NPS × Education
+NPS × Idade
+📌 BLOCO 4 — MOTIVAÇÕES DE COMPRA
+Objetivo: entender o que leva os clientes à LinguaLab e como isso se relaciona com consumo, perfil e satisfação.
+Tópicos:
+Principais motivos de entrada
+Motivo mais comum por cidade/faixa etária
+Qual motivo gera mais aulas compradas?
+Qual motivo tem maior NPS?
+Variáveis para cruzar:
+Motivo × Cidade
+Motivo × Idade
+Motivo × Num_Aulas
+Motivo × NPS
+Motivo × Education
+Motivo × Renda_anual
+📌 BLOCO 5 — POTENCIAL DE EXPANSÃO E PRIORIDADES
+Objetivo: identificar os segmentos, regiões e perfis com maior potencial de crescimento e lucratividade.
+Tópicos:
+Cidades com maior consumo médio
+Grupos que geram mais receita
+Gaps de mercado (alta renda × baixa penetração)
+Públicos com alta intenção mas baixa conversão (ex: alto motivo, baixo número de aulas)
+Variáveis para cruzar:
+Cidade × Num_Aulas × Renda_anual
+Education × Num_Aulas × NPS
+Motivo × Num_Aulas
+Cidade × Motivo × Num_Aulas
+📌 BLOCO 6 — INDICADORES SOCIOECONÔMICOS INDIRETOS
+Objetivo: enriquecer a análise com variáveis de moradia como proxy de renda e estilo de vida.
+Tópicos:
+Cruzamento de Banheiros_na_casa e Quartos_na_casa com:
+Renda_anual
+Num_Aulas
+NPS
+Tipo de Aula
+Utilidade:
+Estimar perfil de novos leads sem precisar da renda declarada
+Avaliar padrões de consumo em relação a padrão de moradia
+📌 BLOCO 7 — BASE PARA DASHBOARD (KPI's)
+Indicadores possíveis para construir no dashboard em React:
+Indicador	Fórmula Base
+Receita estimada por aluno	Num_Aulas × valor médio por aula
+Aulas médias por cidade	Média de Num_Aulas por Cidade
+NPS médio por perfil	Média de NPS cruzado com idade, renda, etc.
+Motivo mais recorrente	Contagem por Motivo
+Segmento mais lucrativo	Cluster com maior média de aulas e satisfação
+Aulas por faixa etária	Faixa por idade (gerada de Ano_de_nascimento)
+Consumo por tipo de aula	Frequência por categoria de Aulas
