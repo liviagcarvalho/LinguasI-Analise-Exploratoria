@@ -14,7 +14,7 @@ ID_Cliente,Motivo,Education,Cidade,Renda_anual,Aulas,NPS,Num_Aulas,Ano_de_nascim
 16,Estudos,Graduação,São Paulo,41850.0,Espanhol,2,14,2006,2,3,False,False,3Q_2B,2000s
 17,Viagem,Graduação,São Paulo,37760.0,Espanhol,4,14,1972,2,2,False,False,2Q_2B,<1980
 18,Trabalho,Mestrado,São Paulo,76995.0,Ingles,4,17,1975,5,6,False,False,6Q_5B,<1980
-19,Trabalho,Ensino Médio,São Paulo,33812.0,Espanhol,4,5,2011,2,2,True,False,2Q_2B,2010s
+19,Estudos,Ensino Médio,São Paulo,33812.0,Espanhol,4,5,2011,2,2,True,False,2Q_2B,2010s
 20,Estudos,Graduação,São Paulo,37040.0,Espanhol,2,17,2008,2,2,False,False,2Q_2B,2000s
 21,Estudos,Graduação,São Paulo,2447.0,Espanhol,1,3,2005,1,1,False,False,1Q_1B,2000s
 22,Trabalho,Doutorado,São Paulo,58607.0,Ingles,2,11,1975,4,4,False,False,4Q_4B,<1980
@@ -75,9 +75,9 @@ ID_Cliente,Motivo,Education,Cidade,Renda_anual,Aulas,NPS,Num_Aulas,Ano_de_nascim
 83,Trabalho,Mestrado,São Paulo,38620.0,Espanhol,4,11,1989,1,2,False,False,2Q_1B,1980s
 84,Trabalho,Graduação,São Paulo,81361.0,Ingles,2,9,2013,5,6,False,False,6Q_5B,2010s
 85,Estudos,Graduação,São Paulo,29440.0,Espanhol,1,12,1986,1,1,False,False,1Q_1B,1980s
-86,Trabalho,Mestrado,São Bernardo,36138.0,Espanhol,1,7,1996,2,2,True,False,2Q_2B,1990s
+86,Estudos,Mestrado,São Bernardo,36138.0,Espanhol,1,7,1996,2,2,True,False,2Q_2B,1990s
 87,Trabalho,Graduação,São Paulo,50388.0,Espanhol,2,11,1983,3,3,False,False,3Q_3B,1980s
-88,Trabalho,Graduação,Campinas,79593.0,Espanhol,5,11,1999,5,6,True,False,6Q_5B,1990s
+88,Estudos,Graduação,Campinas,79593.0,Espanhol,5,11,1999,5,6,True,False,6Q_5B,1990s
 89,Trabalho,Graduação,São Paulo,54178.0,Ingles,2,39,1993,3,4,False,False,4Q_3B,1990s
 91,Estudos,Graduação,São Bernardo,52247.25135379061,Ingles,2,36,1983,3,1,False,False,1Q_3B,1980s
 92,Trabalho,Mestrado,São Bernardo,,Ingles,4,29,1999,3,1,False,True,1Q_3B,1990s
@@ -112,7 +112,7 @@ ID_Cliente,Motivo,Education,Cidade,Renda_anual,Aulas,NPS,Num_Aulas,Ano_de_nascim
 127,Trabalho,Mestrado,Campinas,54348.0,Ingles,3,34,1979,3,4,False,False,4Q_3B,<1980
 128,Trabalho,Doutorado,São Paulo,,Ingles,3,8,1987,3,1,False,True,1Q_3B,1980s
 130,Viagem,Graduação,São Paulo,62998.0,Ingles,3,1,1978,4,5,False,False,5Q_4B,<1980
-131,Estudos,Mestrado,São Paulo,61331.0,Ingles,1,1,1984,4,4,True,False,4Q_4B,1980s
+131,Viagem,Mestrado,São Paulo,61331.0,Ingles,1,1,1984,4,4,True,False,4Q_4B,1980s
 132,Estudos,Graduação,São Paulo,,Ingles,4,28,1995,5,5,False,True,5Q_5B,1990s
 133,Trabalho,Graduação,São Paulo,52247.25135379061,Ingles,2,3,1989,3,1,False,False,1Q_3B,1980s
 134,Trabalho,Doutorado,Campinas,41551.0,Ingles,2,1,1990,3,3,False,False,3Q_3B,1990s
@@ -171,7 +171,7 @@ ID_Cliente,Motivo,Education,Cidade,Renda_anual,Aulas,NPS,Num_Aulas,Ano_de_nascim
 193,Estudos,Graduação,São Paulo,38872.0,Espanhol e Ingles,4,13,2014,2,2,False,False,2Q_2B,2010s
 194,Estudos,Graduação,São Paulo,51148.0,Espanhol,4,11,1999,3,3,False,False,3Q_3B,1990s
 195,Viagem,Graduação,São Paulo,31353.0,Espanhol,4,10,2003,1,2,False,False,2Q_1B,2000s
-196,Viagem,Mestrado,São Bernardo,69661.0,Ingles,4,15,2006,4,5,True,False,5Q_4B,2000s
+196,Trabalho,Mestrado,São Bernardo,69661.0,Ingles,4,15,2006,4,5,True,False,5Q_4B,2000s
 197,Trabalho,Graduação,Campinas,80067.0,Ingles,4,11,1980,5,6,False,False,6Q_5B,1980s
 198,Trabalho,Graduação,Campinas,86718.0,Ingles,4,17,1980,5,6,False,False,6Q_5B,1980s
 199,Estudos,Doutorado,São Bernardo,46854.0,Ingles,4,21,1999,3,3,False,False,3Q_3B,1990s
@@ -182,13 +182,13 @@ ID_Cliente,Motivo,Education,Cidade,Renda_anual,Aulas,NPS,Num_Aulas,Ano_de_nascim
 204,Trabalho,Doutorado,São Paulo,,Ingles,4,21,1991,2,3,False,True,3Q_2B,1990s
 205,Trabalho,Mestrado,São Paulo,18890.0,Espanhol,3,4,2010,1,1,False,False,1Q_1B,2010s
 206,Estudos,Graduação,São Paulo,29604.0,Espanhol,3,12,2014,1,1,False,False,1Q_1B,2010s
-207,Viagem,Mestrado,São Paulo,48721.0,Espanhol,1,13,1989,3,3,True,False,3Q_3B,1980s
-208,Estudos,Graduação,São Paulo,44794.0,Espanhol,1,15,1992,2,3,True,False,3Q_2B,1990s
+207,Estudos,Mestrado,São Paulo,48721.0,Espanhol,1,13,1989,3,3,True,False,3Q_3B,1980s
+208,Trabalho,Graduação,São Paulo,44794.0,Espanhol,1,15,1992,2,3,True,False,3Q_2B,1990s
 209,Viagem,Graduação,São Paulo,,Ingles,4,1,1980,4,5,False,True,5Q_4B,1980s
 210,Estudos,Graduação,São Paulo,46097.0,Espanhol e Ingles,1,26,1982,3,3,False,False,3Q_3B,1980s
 211,Estudos,Graduação,São Paulo,77972.0,Ingles,4,6,1980,5,6,False,False,6Q_5B,1980s
 212,Trabalho,Doutorado,São Paulo,,Ingles,2,18,1994,2,3,False,True,3Q_2B,1990s
-213,Trabalho,Mestrado,São Paulo,46014.0,Espanhol,4,15,2000,3,3,True,False,3Q_3B,2000s
+213,Estudos,Mestrado,São Paulo,46014.0,Espanhol,4,15,2000,3,3,True,False,3Q_3B,2000s
 214,Trabalho,Graduação,São Bernardo,70951.0,Ingles,3,2,2011,4,5,False,False,5Q_4B,2010s
 215,Estudos,Graduação,São Paulo,41443.0,Espanhol,3,3,2003,2,3,False,False,3Q_2B,2000s
 216,Estudos,Ensino Médio,São Paulo,,Ingles,4,29,2004,3,4,False,True,4Q_3B,2000s
@@ -210,7 +210,7 @@ ID_Cliente,Motivo,Education,Cidade,Renda_anual,Aulas,NPS,Num_Aulas,Ano_de_nascim
 233,Estudos,Graduação,São Paulo,15033.0,Espanhol,3,16,1977,1,1,False,False,1Q_1B,<1980
 234,Viagem,Doutorado,São Paulo,,Ingles,3,11,1991,4,4,False,True,4Q_4B,1990s
 235,Estudos,Ensino Médio,São Bernardo,22212.0,Espanhol,3,15,2001,1,1,False,False,1Q_1B,2000s
-236,Viagem,Mestrado,São Paulo,23661.0,Espanhol,1,13,2008,1,1,True,False,1Q_1B,2000s
+236,Estudos,Mestrado,São Paulo,23661.0,Espanhol,1,13,2008,1,1,True,False,1Q_1B,2000s
 238,Trabalho,Graduação,São Paulo,7500.0,Ingles,3,15,1999,1,1,False,False,1Q_1B,1990s
 240,Trabalho,Graduação,Campinas,73455.0,Ingles,2,23,1994,5,5,False,False,5Q_5B,1990s
 241,Viagem,Graduação,Taubaté,64961.0,Ingles,4,22,1984,5,5,False,False,5Q_5B,1980s
@@ -234,7 +234,7 @@ ID_Cliente,Motivo,Education,Cidade,Renda_anual,Aulas,NPS,Num_Aulas,Ano_de_nascim
 261,Estudos,Doutorado,Rio Branco,69674.0,Ingles,1,1,1994,5,5,False,False,5Q_5B,1990s
 262,Viagem,Mestrado,São Paulo,44159.0,Espanhol,2,2,1996,2,3,False,False,3Q_2B,1990s
 263,Trabalho,Doutorado,São Paulo,37717.0,Espanhol e Ingles,3,21,2004,2,2,False,False,2Q_2B,2000s
-264,Trabalho,Mestrado,Campinas,43776.0,Espanhol,2,8,1978,2,3,True,False,3Q_2B,<1980
+264,Estudos,Mestrado,Campinas,43776.0,Espanhol,2,8,1978,2,3,True,False,3Q_2B,<1980
 265,Viagem,Mestrado,São Bernardo,38179.0,Espanhol,1,15,1992,2,2,True,False,2Q_2B,1990s
 266,Trabalho,Graduação,São Paulo,80124.0,Ingles,4,17,1989,5,6,False,False,6Q_5B,1980s
 267,Trabalho,Doutorado,São Bernardo,38097.0,Espanhol e Ingles,1,22,1996,2,2,False,False,2Q_2B,1990s
@@ -336,7 +336,7 @@ ID_Cliente,Motivo,Education,Cidade,Renda_anual,Aulas,NPS,Num_Aulas,Ano_de_nascim
 371,Viagem,Graduação,São Paulo,48178.0,Espanhol,3,4,2001,2,3,False,False,3Q_2B,2000s
 373,Estudos,Graduação,São Paulo,63810.0,Ingles,2,10,1992,4,5,False,False,5Q_4B,1990s
 374,Trabalho,Doutorado,São Paulo,,Ingles,4,4,1998,1,2,False,True,2Q_1B,1990s
-375,Estudos,Mestrado,São Paulo,46098.0,Espanhol,3,18,2001,3,3,True,False,3Q_3B,2000s
+375,Trabalho,Mestrado,São Paulo,46098.0,Espanhol,3,18,2001,3,3,True,False,3Q_3B,2000s
 376,Viagem,Graduação,São Bernardo,22585.0,Espanhol,3,3,1996,1,1,False,False,1Q_1B,1990s
 377,Trabalho,Graduação,São Paulo,30279.0,Espanhol,2,8,2015,1,2,False,False,2Q_1B,2010s
 378,Viagem,Doutorado,São Bernardo,,Ingles,3,28,1987,4,5,False,True,5Q_4B,1980s
@@ -352,7 +352,7 @@ ID_Cliente,Motivo,Education,Cidade,Renda_anual,Aulas,NPS,Num_Aulas,Ano_de_nascim
 388,Trabalho,Graduação,São Bernardo,38823.0,Espanhol,2,5,1975,2,2,False,False,2Q_2B,<1980
 389,Estudos,Doutorado,São Bernardo,83664.0,Ingles,2,31,1994,5,6,False,False,6Q_5B,1990s
 390,Trabalho,Graduação,Rio Branco,90300.0,Espanhol,5,12,2005,5,6,False,False,6Q_5B,2000s
-391,Estudos,Mestrado,São Paulo,62499.0,Ingles,4,35,2005,4,4,True,False,4Q_4B,2000s
+391,Viagem,Mestrado,São Paulo,62499.0,Ingles,4,35,2005,4,4,True,False,4Q_4B,2000s
 392,Trabalho,Graduação,São Paulo,74293.0,Ingles,3,9,2019,5,5,False,False,5Q_5B,2010s
 393,Estudos,Doutorado,São Bernardo,51012.0,Ingles,3,1,1972,3,3,False,False,3Q_3B,<1980
 394,Trabalho,Mestrado,São Paulo,,Ingles,1,43,1994,4,5,False,True,5Q_4B,1990s
@@ -431,7 +431,7 @@ ID_Cliente,Motivo,Education,Cidade,Renda_anual,Aulas,NPS,Num_Aulas,Ano_de_nascim
 474,Trabalho,Graduação,São Paulo,20518.0,Espanhol,1,15,2014,1,1,False,False,1Q_1B,2010s
 475,Viagem,Graduação,Rio Branco,62503.0,Ingles,3,30,1982,5,4,False,False,4Q_5B,1980s
 476,Viagem,Doutorado,São Paulo,41644.0,Ingles,4,38,1998,1,3,False,False,3Q_1B,1990s
-477,Trabalho,Mestrado,São Paulo,,Ingles,4,23,2003,3,4,True,True,4Q_3B,2000s
+477,Estudos,Mestrado,São Paulo,,Ingles,4,23,2003,3,4,True,True,4Q_3B,2000s
 478,Trabalho,Doutorado,Taubaté,62010.0,Ingles,4,1,1998,5,4,False,False,4Q_5B,1990s
 479,Estudos,Graduação,São Paulo,41124.0,Espanhol,1,14,2003,2,3,False,False,3Q_2B,2000s
 480,Trabalho,Mestrado,São Paulo,38961.0,Espanhol e Ingles,4,27,1999,2,2,True,False,2Q_2B,1990s
@@ -516,8 +516,8 @@ ID_Cliente,Motivo,Education,Cidade,Renda_anual,Aulas,NPS,Num_Aulas,Ano_de_nascim
 569,Viagem,Graduação,São Paulo,38200.0,Espanhol,2,6,1996,2,2,False,False,2Q_2B,1990s
 570,Estudos,Graduação,São Paulo,,Espanhol,3,9,2000,3,3,False,True,3Q_3B,2000s
 571,Trabalho,Doutorado,São Bernardo,38443.0,Ingles,3,14,1994,2,2,False,False,2Q_2B,1990s
-572,Viagem,Ensino Médio,São Paulo,38593.0,Espanhol,2,12,2004,2,2,True,False,2Q_2B,2000s
-574,Estudos,Mestrado,Campinas,36959.0,Espanhol,4,17,2007,2,2,True,False,2Q_2B,2000s
+572,Estudos,Ensino Médio,São Paulo,38593.0,Espanhol,2,12,2004,2,2,True,False,2Q_2B,2000s
+574,Trabalho,Mestrado,Campinas,36959.0,Espanhol,4,17,2007,2,2,True,False,2Q_2B,2000s
 575,Estudos,Doutorado,Campinas,61996.0,Ingles,4,14,2003,5,4,False,False,4Q_5B,2000s
 576,Viagem,Graduação,São Paulo,51287.0,Espanhol,3,14,1994,3,3,False,False,3Q_3B,1990s
 577,Trabalho,Graduação,Campinas,13260.0,Espanhol,1,9,1996,2,1,False,False,1Q_2B,1990s
@@ -550,12 +550,12 @@ ID_Cliente,Motivo,Education,Cidade,Renda_anual,Aulas,NPS,Num_Aulas,Ano_de_nascim
 608,Estudos,Ensino Fundamental,São Paulo,30801.0,Ingles,4,23,2001,1,2,True,False,2Q_1B,2000s
 609,Estudos,Graduação,São Paulo,81168.0,Ingles,2,43,1991,5,6,False,False,6Q_5B,1990s
 610,Trabalho,Mestrado,São Paulo,,Espanhol,1,10,1995,1,1,False,True,1Q_1B,1990s
-612,Estudos,Ensino Fundamental,São Paulo,18978.0,Espanhol,1,12,1999,1,1,True,False,1Q_1B,1990s
+612,Viagem,Ensino Fundamental,São Paulo,18978.0,Espanhol,1,12,1999,1,1,True,False,1Q_1B,1990s
 613,Estudos,Graduação,São Paulo,22574.0,Espanhol,1,17,1993,1,1,False,False,1Q_1B,1990s
 615,Estudos,Graduação,Campinas,45837.0,Espanhol,3,15,2000,4,3,False,False,3Q_4B,2000s
 616,Trabalho,Mestrado,São Paulo,,Espanhol,1,21,1991,1,2,False,True,2Q_1B,1990s
 618,Viagem,Graduação,São Bernardo,54162.0,Ingles,2,38,2004,3,4,False,False,4Q_3B,2000s
-619,Estudos,Mestrado,São Bernardo,,Ingles,2,35,1986,1,2,True,True,2Q_1B,1980s
+619,Trabalho,Mestrado,São Bernardo,,Ingles,2,35,1986,1,2,True,True,2Q_1B,1980s
 620,Viagem,Doutorado,São Paulo,54456.0,Espanhol e Ingles,5,15,1987,3,4,False,False,4Q_3B,1980s
 621,Viagem,Graduação,São Paulo,31632.0,Espanhol,2,6,1997,1,2,False,False,2Q_1B,1990s
 622,Trabalho,Graduação,São Paulo,72298.0,Ingles,2,29,1975,5,5,False,False,5Q_5B,<1980
@@ -634,7 +634,7 @@ ID_Cliente,Motivo,Education,Cidade,Renda_anual,Aulas,NPS,Num_Aulas,Ano_de_nascim
 705,Trabalho,Graduação,Rio Branco,,Espanhol,4,10,2012,5,5,False,True,5Q_5B,2010s
 706,Trabalho,Doutorado,São Paulo,35682.0,Ingles,3,2,1996,2,2,False,False,2Q_2B,1990s
 707,Viagem,Graduação,São Bernardo,43185.0,Espanhol,2,8,1977,2,3,False,False,3Q_2B,<1980
-709,Trabalho,Mestrado,São Paulo,35178.0,Espanhol e Ingles,1,1,1997,2,2,True,False,2Q_2B,1990s
+709,Estudos,Mestrado,São Paulo,35178.0,Espanhol e Ingles,1,1,1997,2,2,True,False,2Q_2B,1990s
 710,Estudos,Graduação,São Bernardo,25252.0,Espanhol,4,13,2012,1,1,False,False,1Q_1B,2010s
 711,Trabalho,Mestrado,São Paulo,55250.0,Ingles,2,1,1991,3,4,False,False,4Q_3B,1990s
 712,Trabalho,Graduação,São Paulo,33249.0,Espanhol,2,5,2001,2,2,False,False,2Q_2B,2000s
@@ -778,7 +778,7 @@ ID_Cliente,Motivo,Education,Cidade,Renda_anual,Aulas,NPS,Num_Aulas,Ano_de_nascim
 863,Estudos,Ensino Médio,São Paulo,38683.0,Espanhol,2,13,2015,2,2,False,False,2Q_2B,2010s
 864,Estudos,Ensino Médio,São Paulo,,Espanhol,4,14,2001,3,3,False,True,3Q_3B,2000s
 866,Trabalho,Mestrado,São Paulo,43456.0,Espanhol,1,7,1992,2,3,False,False,3Q_2B,1990s
-867,Viagem,Mestrado,São Paulo,19485.0,Espanhol,5,7,2012,1,1,True,False,1Q_1B,2010s
+867,Estudos,Mestrado,São Paulo,19485.0,Espanhol,5,7,2012,1,1,True,False,1Q_1B,2010s
 868,Estudos,Graduação,Campinas,53172.0,Ingles,3,25,2004,3,4,False,False,4Q_3B,2000s
 869,Estudos,Graduação,Campinas,,Espanhol,1,9,2005,2,2,False,True,2Q_2B,2000s
 870,Estudos,Doutorado,São Paulo,70123.0,Ingles,3,16,2009,4,5,False,False,5Q_4B,2000s
@@ -801,7 +801,7 @@ ID_Cliente,Motivo,Education,Cidade,Renda_anual,Aulas,NPS,Num_Aulas,Ano_de_nascim
 888,Estudos,Graduação,São Paulo,51195.0,Espanhol,3,9,1988,2,3,False,False,3Q_2B,1980s
 889,Trabalho,Mestrado,São Paulo,68092.0,Ingles,4,9,2004,4,5,False,False,5Q_4B,2000s
 890,Estudos,Graduação,São Bernardo,,Espanhol e Ingles,2,21,1999,1,2,False,True,2Q_1B,1990s
-891,Trabalho,Mestrado,Campinas,51390.0,Espanhol,3,5,1991,3,4,True,False,4Q_3B,1990s
+891,Viagem,Mestrado,Campinas,51390.0,Espanhol,3,5,1991,3,4,True,False,4Q_3B,1990s
 892,Viagem,Graduação,São Bernardo,76630.0,Ingles,5,14,2009,5,6,False,False,6Q_5B,2000s
 893,Viagem,Ensino Fundamental,São Paulo,26868.0,Espanhol,2,2,2017,1,1,False,False,1Q_1B,2010s
 894,Trabalho,Doutorado,São Paulo,48948.0,Ingles,1,37,1969,3,3,False,False,3Q_3B,<1980
@@ -822,7 +822,7 @@ ID_Cliente,Motivo,Education,Cidade,Renda_anual,Aulas,NPS,Num_Aulas,Ano_de_nascim
 910,Trabalho,Doutorado,São Paulo,78420.0,Ingles,3,27,1992,5,6,False,False,6Q_5B,1990s
 911,Trabalho,Graduação,São Paulo,75114.0,Ingles,4,7,2018,5,6,False,False,6Q_5B,2010s
 912,Estudos,Doutorado,São Paulo,,Ingles,2,10,1989,3,4,False,True,4Q_3B,1980s
-913,Estudos,Mestrado,São Paulo,35641.0,Espanhol,5,18,1998,2,2,True,False,2Q_2B,1990s
+913,Trabalho,Mestrado,São Paulo,35641.0,Espanhol,5,18,1998,2,2,True,False,2Q_2B,1990s
 914,Estudos,Graduação,São Paulo,95529.0,Ingles,3,35,2020,5,6,False,False,6Q_5B,2010s
 915,Viagem,Graduação,São Paulo,62820.0,Ingles,2,15,1980,4,4,False,False,4Q_4B,1980s
 916,Trabalho,Mestrado,São Paulo,73113.0,Espanhol,4,14,1986,5,5,False,False,5Q_5B,1980s
@@ -848,7 +848,7 @@ ID_Cliente,Motivo,Education,Cidade,Renda_anual,Aulas,NPS,Num_Aulas,Ano_de_nascim
 940,Viagem,Ensino Médio,São Paulo,64831.0,Ingles,3,17,1978,4,5,False,False,5Q_4B,<1980
 941,Trabalho,Doutorado,São Paulo,,Ingles,5,35,1988,3,4,False,True,4Q_3B,1980s
 942,Viagem,Graduação,São Paulo,82025.0,Ingles,3,38,2009,5,6,False,False,6Q_5B,2000s
-944,Estudos,Ensino Fundamental,São Paulo,14906.0,Espanhol,3,5,2012,1,1,True,False,1Q_1B,2010s
+944,Viagem,Ensino Fundamental,São Paulo,14906.0,Espanhol,3,5,2012,1,1,True,False,1Q_1B,2010s
 945,Estudos,Doutorado,São Paulo,51563.0,Ingles,4,29,2013,2,4,False,False,4Q_2B,2010s
 946,Estudos,Ensino Médio,São Paulo,57937.0,Ingles,2,25,2008,3,4,False,False,4Q_3B,2000s
 947,Estudos,Graduação,Campinas,68274.0,Ingles,2,23,2005,5,5,False,False,5Q_5B,2000s
@@ -880,7 +880,7 @@ ID_Cliente,Motivo,Education,Cidade,Renda_anual,Aulas,NPS,Num_Aulas,Ano_de_nascim
 973,Estudos,Ensino Médio,São Paulo,59052.0,Ingles,4,33,1985,4,4,False,False,4Q_4B,1980s
 974,Trabalho,Mestrado,São Paulo,80573.0,Espanhol,4,7,1997,4,6,False,False,6Q_4B,1990s
 975,Estudos,Graduação,São Paulo,,Ingles,4,28,1988,5,6,False,True,6Q_5B,1980s
-976,Trabalho,Mestrado,São Paulo,82576.0,Espanhol,4,6,1985,5,6,True,False,6Q_5B,1980s
+976,Viagem,Mestrado,São Paulo,82576.0,Espanhol,4,6,1985,5,6,True,False,6Q_5B,1980s
 977,Trabalho,Mestrado,São Paulo,,Ingles,2,16,1991,2,4,False,True,4Q_2B,1990s
 978,Estudos,Graduação,São Paulo,35704.0,Espanhol,4,10,1978,2,2,False,False,2Q_2B,<1980
 979,Trabalho,Graduação,São Paulo,53103.0,Ingles,1,14,1980,3,4,False,False,4Q_3B,1980s
@@ -895,10 +895,10 @@ ID_Cliente,Motivo,Education,Cidade,Renda_anual,Aulas,NPS,Num_Aulas,Ano_de_nascim
 989,Viagem,Doutorado,São Bernardo,35340.0,Ingles,3,38,1982,2,2,False,False,2Q_2B,1980s
 990,Viagem,Graduação,São Bernardo,85683.0,Espanhol,4,5,1980,5,6,False,False,6Q_5B,1980s
 991,Viagem,Ensino Médio,São Paulo,24884.0,Espanhol,1,7,1998,1,1,False,False,1Q_1B,1990s
-992,Estudos,Mestrado,São Paulo,42021.0,Espanhol,1,14,2007,2,3,True,False,3Q_2B,2000s
+992,Trabalho,Mestrado,São Paulo,42021.0,Espanhol,1,14,2007,2,3,True,False,3Q_2B,2000s
 993,Viagem,Graduação,São Paulo,64449.0,Ingles,3,43,2015,4,5,False,False,5Q_4B,2010s
 994,Estudos,Graduação,São Paulo,64587.0,Ingles,3,35,1980,4,5,False,False,5Q_4B,1980s
-995,Trabalho,Graduação,São Paulo,34824.0,Espanhol,2,13,2021,1,2,True,False,2Q_1B,2010s
+995,Estudos,Graduação,São Paulo,34824.0,Espanhol,2,13,2021,1,2,True,False,2Q_1B,2010s
 996,Estudos,Graduação,Campinas,75437.0,Espanhol,4,5,2004,5,6,False,False,6Q_5B,2000s
 997,Estudos,Graduação,São Paulo,,Espanhol,5,10,1983,1,1,False,True,1Q_1B,1980s
 998,Viagem,Graduação,Taubaté,52845.0,Ingles,5,14,1999,4,4,False,False,4Q_4B,1990s
@@ -924,7 +924,7 @@ ID_Cliente,Motivo,Education,Cidade,Renda_anual,Aulas,NPS,Num_Aulas,Ano_de_nascim
 1019,Estudos,Graduação,São Paulo,20180.0,Espanhol,2,2,2002,1,1,False,False,1Q_1B,2000s
 1020,Estudos,Graduação,São Paulo,34961.0,Espanhol,2,10,1999,2,2,False,False,2Q_2B,1990s
 1021,Estudos,Doutorado,São Paulo,28440.0,Ingles,2,13,2000,1,1,False,False,1Q_1B,2000s
-1023,Viagem,Mestrado,Taubaté,33564.0,Espanhol,1,11,1992,3,2,True,False,2Q_3B,1990s
+1023,Estudos,Mestrado,Taubaté,33564.0,Espanhol,1,11,1992,3,2,True,False,2Q_3B,1990s
 1024,Trabalho,Graduação,Campinas,17345.0,Espanhol,4,5,2004,2,1,False,False,1Q_2B,2000s
 1025,Viagem,Doutorado,São Paulo,56320.0,Ingles,1,33,1993,3,4,False,False,4Q_3B,1990s
 1026,Viagem,Graduação,Campinas,28647.0,Espanhol,4,13,2004,1,1,False,False,1Q_1B,2000s
@@ -971,7 +971,7 @@ ID_Cliente,Motivo,Education,Cidade,Renda_anual,Aulas,NPS,Num_Aulas,Ano_de_nascim
 1072,Estudos,Graduação,São Paulo,,Ingles,2,19,1981,3,4,False,True,4Q_3B,1980s
 1073,Trabalho,Graduação,São Paulo,,Espanhol,3,9,1979,1,2,False,True,2Q_1B,<1980
 1074,Trabalho,Graduação,Rio Branco,46610.0,Espanhol,4,12,1984,4,3,False,False,3Q_4B,1980s
-1075,Viagem,Graduação,São Paulo,,Ingles,4,25,1987,5,6,True,True,6Q_5B,1980s
+1075,Trabalho,Graduação,São Paulo,,Ingles,4,25,1987,5,6,True,True,6Q_5B,1980s
 1077,Estudos,Ensino Médio,São Paulo,26907.0,Espanhol,3,7,2002,1,1,False,False,1Q_1B,2000s
 1078,Trabalho,Mestrado,São Paulo,50014.0,Espanhol,2,10,1994,3,3,False,False,3Q_3B,1990s
 1079,Trabalho,Doutorado,Campinas,41014.0,Ingles,2,23,2004,3,3,False,False,3Q_3B,2000s
@@ -1002,7 +1002,7 @@ ID_Cliente,Motivo,Education,Cidade,Renda_anual,Aulas,NPS,Num_Aulas,Ano_de_nascim
 1107,Viagem,Ensino Médio,São Bernardo,15315.0,Espanhol,3,12,1996,1,1,False,False,1Q_1B,1990s
 1108,Estudos,Ensino Médio,São Paulo,65463.0,Ingles,4,20,2000,4,5,False,False,5Q_4B,2000s
 1109,Estudos,Graduação,São Paulo,66480.0,Espanhol,3,8,1991,4,5,False,False,5Q_4B,1990s
-1110,Estudos,Graduação,São Bernardo,76773.0,Espanhol,3,11,1980,5,6,True,False,6Q_5B,1980s
+1110,Trabalho,Graduação,São Bernardo,76773.0,Espanhol,3,11,1980,5,6,True,False,6Q_5B,1980s
 1112,Estudos,Doutorado,São Paulo,54466.0,Ingles,4,15,1999,3,4,False,False,4Q_3B,1990s
 1114,Trabalho,Doutorado,São Paulo,16269.0,Ingles,4,32,2010,1,1,False,False,1Q_1B,2010s
 1115,Viagem,Graduação,São Paulo,71819.0,Ingles,4,1,1997,4,5,False,False,5Q_4B,1990s
@@ -1011,7 +1011,7 @@ ID_Cliente,Motivo,Education,Cidade,Renda_anual,Aulas,NPS,Num_Aulas,Ano_de_nascim
 1118,Viagem,Ensino Fundamental,São Paulo,22634.0,Espanhol,1,20,1992,1,1,False,False,1Q_1B,1990s
 1119,Estudos,Ensino Médio,São Paulo,47025.0,Espanhol,1,14,2004,3,3,False,False,3Q_3B,2000s
 1120,Trabalho,Graduação,Campinas,70566.0,Ingles,2,4,1994,4,5,False,False,5Q_4B,1990s
-1121,Viagem,Doutorado,Taubaté,31605.0,Ingles,3,34,2005,2,2,True,False,2Q_2B,2000s
+1121,Estudos,Doutorado,Taubaté,31605.0,Ingles,3,34,2005,2,2,True,False,2Q_2B,2000s
 1123,Trabalho,Graduação,São Bernardo,,Espanhol,1,8,2005,3,3,False,True,3Q_3B,2000s
 1124,Trabalho,Graduação,São Paulo,46734.0,Ingles,5,18,1980,3,3,False,False,3Q_3B,1980s
 1125,Trabalho,Graduação,São Paulo,,Espanhol e Ingles,3,23,1988,2,2,False,True,2Q_2B,1980s
@@ -1021,20 +1021,20 @@ ID_Cliente,Motivo,Education,Cidade,Renda_anual,Aulas,NPS,Num_Aulas,Ano_de_nascim
 1129,Viagem,Ensino Médio,São Paulo,,Ingles,3,17,1978,4,5,False,True,5Q_4B,<1980
 1130,Viagem,Mestrado,São Bernardo,67381.0,Ingles,3,21,1977,4,5,True,False,5Q_4B,<1980
 1131,Estudos,Graduação,São Paulo,25930.0,Espanhol,2,5,1993,1,1,False,False,1Q_1B,1990s
-1132,Estudos,Graduação,São Paulo,42693.0,Espanhol,4,1,2004,1,3,True,False,3Q_1B,2000s
+1132,Viagem,Graduação,São Paulo,42693.0,Espanhol,4,1,2004,1,3,True,False,3Q_1B,2000s
 1133,Estudos,Graduação,São Paulo,85606.0,Ingles,3,37,2002,5,6,False,False,6Q_5B,2000s
 1134,Estudos,Graduação,São Paulo,,Ingles,3,6,2011,5,5,False,True,5Q_5B,2010s
 1135,Estudos,Ensino Médio,São Paulo,,Espanhol,2,8,2000,2,3,False,True,3Q_2B,2000s
 1136,Estudos,Doutorado,Campinas,36778.0,Ingles,3,24,1994,2,2,False,False,2Q_2B,1990s
 1137,Estudos,Doutorado,São Paulo,85696.0,Ingles,5,35,1988,5,6,False,False,6Q_5B,1980s
-1138,Trabalho,Mestrado,São Paulo,10979.0,Espanhol,2,10,2015,1,1,True,False,1Q_1B,2010s
+1138,Estudos,Mestrado,São Paulo,10979.0,Espanhol,2,10,2015,1,1,True,False,1Q_1B,2010s
 1139,Estudos,Graduação,São Paulo,49678.0,Espanhol e Ingles,3,33,1987,3,3,False,False,3Q_3B,1980s
 1140,Trabalho,Mestrado,São Bernardo,56129.0,Ingles,5,28,1979,3,4,False,False,4Q_3B,<1980
 1141,Trabalho,Graduação,São Paulo,,Espanhol e Ingles,4,27,2015,2,2,False,True,2Q_2B,2010s
 1142,Viagem,Ensino Médio,São Paulo,21282.0,Espanhol,3,18,2004,1,1,False,False,1Q_1B,2000s
 1143,Viagem,Doutorado,São Paulo,33419.0,Ingles,2,23,1988,2,2,False,False,2Q_2B,1980s
 1144,Viagem,Graduação,São Paulo,63285.0,Ingles,5,35,1971,4,5,False,False,5Q_4B,<1980
-1145,Viagem,Mestrado,Campinas,21255.0,Espanhol e Ingles,2,22,2000,1,1,True,False,1Q_1B,2000s
+1145,Trabalho,Mestrado,Campinas,21255.0,Espanhol e Ingles,2,22,2000,1,1,True,False,1Q_1B,2000s
 1146,Estudos,Graduação,São Bernardo,42162.0,Espanhol,2,12,2007,2,3,False,False,3Q_2B,2000s
 1147,Viagem,Graduação,São Paulo,54450.0,Espanhol,3,9,1982,3,4,False,False,4Q_3B,1980s
 1149,Trabalho,Graduação,Campinas,26576.0,Espanhol,4,14,2012,1,1,False,False,1Q_1B,2010s
@@ -1073,10 +1073,10 @@ ID_Cliente,Motivo,Education,Cidade,Renda_anual,Aulas,NPS,Num_Aulas,Ano_de_nascim
 1188,Trabalho,Doutorado,São Paulo,,Ingles,2,17,1988,1,2,False,True,2Q_1B,1980s
 1189,Viagem,Ensino Médio,São Bernardo,,Espanhol,1,6,2000,3,3,False,True,3Q_3B,2000s
 1190,Trabalho,Mestrado,São Paulo,,Ingles,3,22,1996,4,6,False,True,6Q_4B,1990s
-1191,Viagem,Mestrado,São Paulo,67369.0,Ingles,3,28,1995,4,5,True,False,5Q_4B,1990s
+1191,Trabalho,Mestrado,São Paulo,67369.0,Ingles,3,28,1995,4,5,True,False,5Q_4B,1990s
 1192,Viagem,Graduação,São Paulo,58401.0,Ingles,2,21,1986,3,4,False,False,4Q_3B,1980s
 1194,Trabalho,Mestrado,São Paulo,43641.0,Espanhol,1,10,1995,1,3,False,False,3Q_1B,1990s
-1195,Trabalho,Mestrado,Campinas,63841.0,Ingles,1,11,1994,4,5,True,False,5Q_4B,1990s
+1195,Viagem,Mestrado,Campinas,63841.0,Ingles,1,11,1994,4,5,True,False,5Q_4B,1990s
 1196,Estudos,Ensino Médio,Taubaté,,Espanhol,3,8,1991,4,3,False,True,3Q_4B,1990s
 1197,Trabalho,Mestrado,Taubaté,70091.0,Espanhol e Ingles,1,37,1995,5,5,False,False,5Q_5B,1990s
 1198,Estudos,Doutorado,São Bernardo,78075.0,Espanhol e Ingles,2,38,1998,5,6,False,False,6Q_5B,1990s
@@ -1096,7 +1096,7 @@ ID_Cliente,Motivo,Education,Cidade,Renda_anual,Aulas,NPS,Num_Aulas,Ano_de_nascim
 1213,Viagem,Graduação,São Bernardo,74918.0,Ingles,2,1,1995,5,6,False,False,6Q_5B,1990s
 1214,Trabalho,Graduação,São Paulo,56721.0,Espanhol,3,9,1998,3,4,False,False,4Q_3B,1990s
 1215,Trabalho,Graduação,São Paulo,42160.0,Espanhol,1,5,2001,2,3,False,False,3Q_2B,2000s
-1216,Trabalho,Graduação,São Paulo,61559.0,Espanhol,1,8,1991,3,4,True,False,4Q_3B,1990s
+1216,Estudos,Graduação,São Paulo,61559.0,Espanhol,1,8,1991,3,4,True,False,4Q_3B,1990s
 1217,Trabalho,Doutorado,São Paulo,33629.0,Espanhol e Ingles,3,30,1989,2,2,False,False,2Q_2B,1980s
 1218,Estudos,Doutorado,São Paulo,68682.0,Ingles,4,31,2017,4,5,False,False,5Q_4B,2010s
 1219,Trabalho,Graduação,São Paulo,34377.0,Espanhol,1,12,1989,2,2,False,False,2Q_2B,1980s
@@ -1134,7 +1134,7 @@ ID_Cliente,Motivo,Education,Cidade,Renda_anual,Aulas,NPS,Num_Aulas,Ano_de_nascim
 1255,Trabalho,Doutorado,São Paulo,55158.0,Espanhol e Ingles,1,25,1996,3,4,False,False,4Q_3B,1990s
 1256,Viagem,Ensino Médio,São Paulo,62972.0,Espanhol,1,11,1981,4,4,False,False,4Q_4B,1980s
 1257,Viagem,Graduação,São Paulo,74190.0,Espanhol e Ingles,3,9,2001,5,5,False,False,5Q_5B,2000s
-1258,Estudos,Graduação,São Paulo,39356.0,Espanhol,2,14,2002,1,2,True,False,2Q_1B,2000s
+1258,Trabalho,Graduação,São Paulo,39356.0,Espanhol,2,14,2002,1,2,True,False,2Q_1B,2000s
 1259,Estudos,Graduação,São Paulo,76653.0,Ingles,5,8,1995,5,6,False,False,6Q_5B,1990s
 1260,Estudos,Doutorado,São Paulo,,Ingles,4,36,1999,2,2,False,True,2Q_2B,1990s
 1261,Trabalho,Doutorado,São Bernardo,90687.0,Ingles,3,20,2009,5,6,False,False,6Q_5B,2000s
@@ -1146,7 +1146,7 @@ ID_Cliente,Motivo,Education,Cidade,Renda_anual,Aulas,NPS,Num_Aulas,Ano_de_nascim
 1269,Viagem,Ensino Médio,São Paulo,,Ingles,2,1,1984,5,6,False,True,6Q_5B,1980s
 1270,Estudos,Graduação,São Paulo,55956.0,Ingles,4,1,1970,3,4,False,False,4Q_3B,<1980
 1271,Trabalho,Mestrado,Campinas,64191.0,Ingles,3,24,1989,4,5,False,False,5Q_4B,1980s
-1272,Estudos,Graduação,São Bernardo,38808.0,Espanhol,1,6,1998,2,2,True,False,2Q_2B,1990s
+1272,Trabalho,Graduação,São Bernardo,38808.0,Espanhol,1,6,1998,2,2,True,False,2Q_2B,1990s
 1273,Trabalho,Mestrado,São Paulo,,Ingles,2,28,1992,2,4,False,True,4Q_2B,1990s
 1274,Trabalho,Mestrado,São Paulo,23748.0,Espanhol,1,12,1994,1,1,False,False,1Q_1B,1990s
 1275,Estudos,Graduação,São Paulo,,Espanhol,2,19,1997,4,5,False,True,5Q_4B,1990s
@@ -1196,7 +1196,7 @@ ID_Cliente,Motivo,Education,Cidade,Renda_anual,Aulas,NPS,Num_Aulas,Ano_de_nascim
 1325,Trabalho,Mestrado,São Paulo,72828.0,Ingles,1,41,1988,5,5,False,False,5Q_5B,1980s
 1326,Estudos,Graduação,São Paulo,24711.0,Espanhol,1,9,2008,1,1,False,False,1Q_1B,2000s
 1327,Trabalho,Doutorado,São Bernardo,,Ingles,3,19,2001,3,3,False,True,3Q_3B,2000s
-1328,Viagem,Mestrado,São Paulo,6560.0,Espanhol,4,9,2008,1,1,True,False,1Q_1B,2000s
+1328,Trabalho,Mestrado,São Paulo,6560.0,Espanhol,4,9,2008,1,1,True,False,1Q_1B,2000s
 1330,Estudos,Graduação,São Paulo,27244.0,Espanhol,3,1,2005,1,1,False,False,1Q_1B,2000s
 1331,Estudos,Graduação,São Bernardo,48752.0,Espanhol,3,10,1995,3,3,False,False,3Q_3B,1990s
 1332,Trabalho,Graduação,São Paulo,71434.0,Ingles,2,20,1988,4,5,False,False,5Q_4B,1980s
@@ -1217,7 +1217,7 @@ ID_Cliente,Motivo,Education,Cidade,Renda_anual,Aulas,NPS,Num_Aulas,Ano_de_nascim
 1349,Estudos,Doutorado,São Paulo,85696.0,Ingles,3,11,1988,4,6,False,False,6Q_4B,1980s
 1350,Trabalho,Doutorado,Campinas,76542.0,Ingles,3,25,1982,5,6,False,False,6Q_5B,1980s
 1351,Estudos,Graduação,São Paulo,70515.0,Ingles,3,3,2019,4,5,False,False,5Q_4B,2010s
-1352,Estudos,Graduação,São Paulo,18227.0,Espanhol,2,10,2013,1,1,True,False,1Q_1B,2010s
+1352,Viagem,Graduação,São Paulo,18227.0,Espanhol,2,10,2013,1,1,True,False,1Q_1B,2010s
 1353,Trabalho,Graduação,São Bernardo,,Ingles,4,22,1991,4,5,False,True,5Q_4B,1990s
 1354,Estudos,Graduação,São Paulo,69109.0,Ingles,4,20,2008,4,5,False,False,5Q_4B,2000s
 1355,Viagem,Graduação,Campinas,69627.0,Espanhol e Ingles,5,16,1988,4,5,False,False,5Q_4B,1980s
@@ -1237,11 +1237,11 @@ ID_Cliente,Motivo,Education,Cidade,Renda_anual,Aulas,NPS,Num_Aulas,Ano_de_nascim
 1371,Estudos,Ensino Médio,São Paulo,,Ingles,5,22,1986,3,3,False,True,3Q_3B,1980s
 1372,Viagem,Mestrado,Campinas,35791.0,Espanhol,1,6,1991,2,2,False,False,2Q_2B,1990s
 1373,Estudos,Doutorado,São Paulo,,Ingles,3,5,1986,3,3,False,True,3Q_3B,1980s
-1374,Estudos,Doutorado,São Paulo,56242.0,Ingles,3,39,1995,3,4,True,False,4Q_3B,1990s
+1374,Trabalho,Doutorado,São Paulo,56242.0,Ingles,3,39,1995,3,4,True,False,4Q_3B,1990s
 1375,Viagem,Graduação,Campinas,48904.0,Espanhol,1,11,1986,3,3,False,False,3Q_3B,1980s
 1376,Estudos,Graduação,São Paulo,56243.0,Ingles,4,7,2001,3,4,False,False,4Q_3B,2000s
 1377,Viagem,Graduação,São Paulo,21355.0,Espanhol,1,9,2011,1,1,False,False,1Q_1B,2010s
-1378,Viagem,Mestrado,São Paulo,,Ingles,4,35,1997,3,4,True,True,4Q_3B,1990s
+1378,Estudos,Mestrado,São Paulo,,Ingles,4,35,1997,3,4,True,True,4Q_3B,1990s
 1379,Trabalho,Mestrado,São Paulo,52247.25135379061,Ingles,3,26,1996,3,1,False,False,1Q_3B,1990s
 1380,Trabalho,Mestrado,São Paulo,46390.0,Espanhol e Ingles,3,2,1981,3,3,False,False,3Q_3B,1980s
 1381,Viagem,Ensino Médio,São Paulo,54342.0,Ingles,1,10,1982,3,4,False,False,4Q_3B,1980s
@@ -1252,7 +1252,7 @@ ID_Cliente,Motivo,Education,Cidade,Renda_anual,Aulas,NPS,Num_Aulas,Ano_de_nascim
 1387,Estudos,Ensino Médio,São Paulo,26907.0,Espanhol,1,18,2002,1,1,False,False,1Q_1B,2000s
 1388,Viagem,Graduação,Taubaté,44964.0,Espanhol,1,1,2006,4,3,False,False,3Q_4B,2000s
 1389,Trabalho,Graduação,São Paulo,75507.0,Ingles,1,10,2005,5,6,False,False,6Q_5B,2000s
-1390,Trabalho,Mestrado,São Paulo,53761.0,Ingles,1,41,1998,3,4,True,False,4Q_3B,1990s
+1390,Viagem,Mestrado,São Paulo,53761.0,Ingles,1,41,1998,3,4,True,False,4Q_3B,1990s
 1391,Viagem,Graduação,São Paulo,22682.0,Espanhol,2,15,1999,1,1,False,False,1Q_1B,1990s
 1392,Estudos,Doutorado,São Paulo,38887.0,Ingles,4,16,1998,2,2,False,False,2Q_2B,1990s
 1393,Estudos,Ensino Médio,São Paulo,41658.0,Espanhol,1,16,2001,2,3,False,False,3Q_2B,2000s
@@ -1272,7 +1272,7 @@ ID_Cliente,Motivo,Education,Cidade,Renda_anual,Aulas,NPS,Num_Aulas,Ano_de_nascim
 1409,Trabalho,Doutorado,Campinas,36957.0,Ingles,4,1,1979,2,2,False,False,2Q_2B,<1980
 1410,Trabalho,Doutorado,São Paulo,69389.0,Ingles,4,35,2003,4,5,False,False,5Q_4B,2000s
 1411,Trabalho,Graduação,São Paulo,,Ingles,2,37,1998,5,6,False,True,6Q_5B,1990s
-1412,Trabalho,Mestrado,São Paulo,43142.0,Espanhol,1,4,1995,2,3,True,False,3Q_2B,1990s
+1412,Estudos,Mestrado,São Paulo,43142.0,Espanhol,1,4,1995,2,3,True,False,3Q_2B,1990s
 1413,Estudos,Graduação,São Paulo,80589.0,Ingles,2,4,1970,4,6,False,False,6Q_4B,<1980
 1414,Estudos,Graduação,São Paulo,34412.0,Espanhol e Ingles,1,16,2016,2,2,False,False,2Q_2B,2010s
 1415,Viagem,Graduação,Campinas,57537.0,Ingles,4,14,2005,4,4,False,False,4Q_4B,2000s
@@ -1324,7 +1324,7 @@ ID_Cliente,Motivo,Education,Cidade,Renda_anual,Aulas,NPS,Num_Aulas,Ano_de_nascim
 1462,Trabalho,Doutorado,São Paulo,46015.0,Ingles,4,26,1981,3,3,False,False,3Q_3B,1980s
 1463,Estudos,Graduação,São Paulo,,Espanhol,2,9,2004,1,1,False,True,1Q_1B,2000s
 1464,Trabalho,Mestrado,Rio Branco,28072.0,Espanhol,2,7,2012,2,1,False,False,1Q_2B,2010s
-1465,Trabalho,Mestrado,São Paulo,49476.0,Espanhol,1,15,1989,2,3,True,False,3Q_2B,1980s
+1465,Estudos,Mestrado,São Paulo,49476.0,Espanhol,1,15,1989,2,3,True,False,3Q_2B,1980s
 1466,Estudos,Graduação,Taubaté,50725.0,Espanhol,2,6,1979,4,3,False,False,3Q_4B,<1980
 1469,Trabalho,Graduação,São Bernardo,,Ingles,3,13,1996,4,5,False,True,5Q_4B,1990s
 1470,Estudos,Ensino Médio,São Paulo,23162.0,Espanhol,1,3,1996,1,1,False,False,1Q_1B,1990s
@@ -1357,7 +1357,7 @@ ID_Cliente,Motivo,Education,Cidade,Renda_anual,Aulas,NPS,Num_Aulas,Ano_de_nascim
 1500,Trabalho,Mestrado,São Paulo,53253.0,Ingles,4,3,2001,3,4,False,False,4Q_3B,2000s
 1501,Viagem,Ensino Médio,São Paulo,31163.0,Espanhol,3,10,1999,1,2,False,False,2Q_1B,1990s
 1502,Estudos,Graduação,São Paulo,42014.0,Espanhol,2,7,2003,1,3,False,False,3Q_1B,2000s
-1503,Estudos,Mestrado,São Paulo,54108.0,Espanhol e Ingles,4,1,1999,3,4,True,False,4Q_3B,1990s
+1503,Viagem,Mestrado,São Paulo,54108.0,Espanhol e Ingles,4,1,1999,3,4,True,False,4Q_3B,1990s
 1504,Estudos,Doutorado,São Paulo,,Espanhol e Ingles,4,10,1981,3,3,False,True,3Q_3B,1980s
 1505,Estudos,Mestrado,São Paulo,63206.0,Espanhol,2,12,2000,4,5,True,False,5Q_4B,2000s
 1506,Trabalho,Mestrado,São Paulo,57136.0,Espanhol e Ingles,4,1,1998,3,4,False,False,4Q_3B,1990s
@@ -1403,7 +1403,7 @@ ID_Cliente,Motivo,Education,Cidade,Renda_anual,Aulas,NPS,Num_Aulas,Ano_de_nascim
 1552,Estudos,Graduação,São Bernardo,63943.0,Ingles,2,37,1982,4,5,False,False,5Q_4B,1980s
 1554,Viagem,Graduação,São Paulo,,Espanhol,2,1,2000,4,5,False,True,5Q_4B,2000s
 1555,Trabalho,Mestrado,São Paulo,37054.0,Espanhol,2,15,1993,2,2,False,False,2Q_2B,1990s
-1556,Trabalho,Mestrado,São Paulo,47175.0,Espanhol,4,12,1988,3,3,True,False,3Q_3B,1980s
+1556,Estudos,Mestrado,São Paulo,47175.0,Espanhol,4,12,1988,3,3,True,False,3Q_3B,1980s
 1557,Estudos,Graduação,São Paulo,31859.0,Espanhol,2,11,2002,1,2,False,False,2Q_1B,2000s
 1558,Trabalho,Graduação,São Bernardo,,Espanhol,4,15,1987,1,1,False,True,1Q_1B,1980s
 1559,Estudos,Doutorado,Campinas,70179.0,Ingles,5,2,2002,5,5,False,False,5Q_5B,2000s
@@ -1416,7 +1416,7 @@ ID_Cliente,Motivo,Education,Cidade,Renda_anual,Aulas,NPS,Num_Aulas,Ano_de_nascim
 1567,Estudos,Graduação,São Paulo,75315.0,Espanhol e Ingles,2,1,1980,4,6,False,False,6Q_4B,1980s
 1569,Trabalho,Doutorado,São Paulo,75283.0,Ingles,3,27,1983,5,6,False,False,6Q_5B,1980s
 1570,Trabalho,Doutorado,São Paulo,82800.0,Ingles,4,13,1972,5,6,False,False,6Q_5B,<1980
-1571,Estudos,Graduação,São Paulo,38998.0,Espanhol,3,7,1980,2,2,True,False,2Q_2B,1980s
+1571,Viagem,Graduação,São Paulo,38998.0,Espanhol,3,7,1980,2,2,True,False,2Q_2B,1980s
 1572,Trabalho,Mestrado,São Bernardo,90638.0,Espanhol,2,10,2017,5,6,False,False,6Q_5B,2010s
 1573,Trabalho,Mestrado,Campinas,,Espanhol e Ingles,3,1,2012,1,1,False,True,1Q_1B,2010s
 1574,Estudos,Graduação,São Paulo,42014.0,Espanhol,1,13,2003,2,3,False,False,3Q_2B,2000s
@@ -1427,10 +1427,10 @@ ID_Cliente,Motivo,Education,Cidade,Renda_anual,Aulas,NPS,Num_Aulas,Ano_de_nascim
 1580,Trabalho,Graduação,São Paulo,34633.0,Espanhol,2,6,1982,2,2,False,False,2Q_2B,1980s
 1581,Trabalho,Mestrado,São Paulo,78093.0,Ingles,3,24,1973,5,6,False,False,6Q_5B,<1980
 1582,Trabalho,Graduação,São Paulo,82460.0,Ingles,1,27,1976,5,6,False,False,6Q_5B,<1980
-1583,Estudos,Mestrado,São Paulo,45903.0,Ingles,4,36,1992,3,3,True,False,3Q_3B,1990s
+1583,Trabalho,Mestrado,São Paulo,45903.0,Ingles,4,36,1992,3,3,True,False,3Q_3B,1990s
 1584,Estudos,Graduação,Rio Branco,81361.0,Ingles,2,21,2013,5,6,False,False,6Q_5B,2010s
 1585,Estudos,Doutorado,São Paulo,,Ingles,1,25,1999,2,2,False,True,2Q_2B,1990s
-1586,Estudos,Mestrado,São Paulo,40442.0,Espanhol,4,7,1978,2,3,True,False,3Q_2B,<1980
+1586,Trabalho,Mestrado,São Paulo,40442.0,Espanhol,4,7,1978,2,3,True,False,3Q_2B,<1980
 1587,Trabalho,Graduação,São Paulo,61482.0,Ingles,4,14,1991,4,4,False,False,4Q_4B,1990s
 1588,Estudos,Graduação,São Paulo,,Espanhol,3,3,2006,2,2,False,True,2Q_2B,2000s
 1589,Trabalho,Graduação,São Bernardo,75794.0,Ingles,2,24,2013,5,6,False,False,6Q_5B,2010s
@@ -1444,9 +1444,9 @@ ID_Cliente,Motivo,Education,Cidade,Renda_anual,Aulas,NPS,Num_Aulas,Ano_de_nascim
 1597,Estudos,Graduação,São Paulo,36108.0,Espanhol,1,5,2010,1,2,False,False,2Q_1B,2010s
 1598,Estudos,Graduação,São Paulo,76445.0,Espanhol e Ingles,2,35,1997,4,6,False,False,6Q_4B,1990s
 1599,Trabalho,Doutorado,Campinas,,Ingles,3,26,2001,2,2,False,True,2Q_2B,2000s
-1600,Viagem,Mestrado,São Paulo,53843.0,Ingles,4,20,1991,3,4,True,False,4Q_3B,1990s
+1600,Estudos,Mestrado,São Paulo,53843.0,Ingles,4,20,1991,3,4,True,False,4Q_3B,1990s
 1602,Trabalho,Mestrado,São Paulo,70638.0,Ingles,5,37,1981,4,5,False,False,5Q_4B,1980s
-1603,Estudos,Graduação,São Paulo,,Espanhol,3,23,1986,2,3,True,True,3Q_2B,1980s
+1603,Trabalho,Graduação,São Paulo,,Espanhol,3,23,1986,2,3,True,True,3Q_2B,1980s
 1604,Estudos,Graduação,São Paulo,27116.0,Espanhol,3,12,1987,1,1,False,False,1Q_1B,1980s
 1605,Estudos,Doutorado,São Paulo,54072.0,Ingles,3,19,1989,3,4,False,False,4Q_3B,1980s
 1606,Estudos,Graduação,São Paulo,71855.0,Ingles,3,1,2003,4,5,False,False,5Q_4B,2000s
@@ -1463,12 +1463,12 @@ ID_Cliente,Motivo,Education,Cidade,Renda_anual,Aulas,NPS,Num_Aulas,Ano_de_nascim
 1617,Trabalho,Graduação,São Paulo,57100.0,Ingles,4,1,2013,3,4,False,False,4Q_3B,2010s
 1619,Trabalho,Mestrado,São Bernardo,52973.0,Ingles,3,36,1982,3,4,False,False,4Q_3B,1980s
 1620,Trabalho,Doutorado,São Paulo,51717.0,Ingles,3,23,1991,3,4,False,False,4Q_3B,1990s
-1621,Trabalho,Graduação,São Paulo,18793.0,Espanhol,1,23,1997,1,1,True,False,1Q_1B,1990s
+1621,Estudos,Graduação,São Paulo,18793.0,Espanhol,1,23,1997,1,1,True,False,1Q_1B,1990s
 1622,Viagem,Ensino Médio,São Paulo,66664.0,Ingles,4,19,2008,4,5,False,False,5Q_4B,2000s
 1623,Estudos,Graduação,Taubaté,50664.0,Espanhol,3,10,1985,4,3,False,False,3Q_4B,1980s
 1624,Estudos,Graduação,São Paulo,54414.0,Ingles,1,24,1989,3,4,False,False,4Q_3B,1980s
 1625,Trabalho,Doutorado,São Paulo,54549.0,Ingles,3,28,1978,3,4,False,False,4Q_3B,<1980
-1626,Trabalho,Doutorado,São Paulo,47111.0,Ingles,3,30,1997,3,3,True,False,3Q_3B,1990s
+1626,Estudos,Doutorado,São Paulo,47111.0,Ingles,3,30,1997,3,3,True,False,3Q_3B,1990s
 1627,Trabalho,Doutorado,São Paulo,41003.0,Ingles,3,28,1989,2,3,False,False,3Q_2B,1980s
 1628,Viagem,Graduação,São Paulo,19444.0,Espanhol,1,16,2008,1,1,False,False,1Q_1B,2000s
 1629,Estudos,Ensino Médio,São Paulo,36301.0,Espanhol,3,6,2002,2,2,False,False,2Q_2B,2000s
@@ -1521,7 +1521,7 @@ ID_Cliente,Motivo,Education,Cidade,Renda_anual,Aulas,NPS,Num_Aulas,Ano_de_nascim
 1683,Trabalho,Doutorado,São Bernardo,23536.0,Ingles,3,38,2009,1,1,False,False,1Q_1B,2000s
 1684,Trabalho,Graduação,São Paulo,49413.0,Espanhol,4,15,1978,3,3,False,False,3Q_3B,<1980
 1685,Estudos,Graduação,Campinas,42231.0,Ingles,3,31,1995,2,3,False,False,3Q_2B,1990s
-1686,Estudos,Mestrado,Campinas,78789.0,Ingles,3,25,2006,5,6,True,False,6Q_5B,2000s
+1686,Trabalho,Mestrado,Campinas,78789.0,Ingles,3,25,2006,5,6,True,False,6Q_5B,2000s
 1687,Trabalho,Graduação,São Paulo,56534.0,Ingles,4,36,1994,3,4,False,False,4Q_3B,1990s
 1688,Estudos,Graduação,São Paulo,,Espanhol,3,14,1997,3,4,False,True,4Q_3B,1990s
 1689,Trabalho,Graduação,São Bernardo,81217.0,Espanhol,2,12,2015,5,6,False,False,6Q_5B,2010s
@@ -1539,12 +1539,12 @@ ID_Cliente,Motivo,Education,Cidade,Renda_anual,Aulas,NPS,Num_Aulas,Ano_de_nascim
 1703,Estudos,Doutorado,São Paulo,55012.0,Ingles,3,10,1999,3,4,False,False,4Q_3B,1990s
 1704,Estudos,Ensino Fundamental,São Paulo,9722.0,Espanhol,2,11,1999,1,1,False,False,1Q_1B,1990s
 1705,Estudos,Doutorado,São Paulo,38175.0,Ingles,3,18,2010,2,2,False,False,2Q_2B,2010s
-1706,Trabalho,Mestrado,São Paulo,58656.0,Ingles,1,8,1982,4,4,True,False,4Q_4B,1980s
+1706,Estudos,Mestrado,São Paulo,58656.0,Ingles,1,8,1982,4,4,True,False,4Q_4B,1980s
 1707,Estudos,Graduação,São Paulo,52117.0,Ingles,1,15,1991,3,4,False,False,4Q_3B,1990s
 1708,Trabalho,Graduação,São Paulo,64813.0,Ingles,4,1,2004,4,5,False,False,5Q_4B,2000s
 1709,Estudos,Doutorado,São Paulo,54222.0,Espanhol e Ingles,2,33,1999,3,4,False,False,4Q_3B,1990s
 1710,Trabalho,Graduação,São Paulo,83512.0,Espanhol e Ingles,3,31,2012,5,6,False,False,6Q_5B,2010s
-1711,Viagem,Mestrado,São Paulo,77520.0,Ingles,2,23,1985,4,6,True,False,6Q_4B,1980s
+1711,Trabalho,Mestrado,São Paulo,77520.0,Ingles,2,23,1985,4,6,True,False,6Q_4B,1980s
 1712,Viagem,Graduação,São Bernardo,41154.0,Espanhol,3,4,2004,2,3,False,False,3Q_2B,2000s
 1713,Estudos,Graduação,São Paulo,80398.0,Espanhol,1,5,1992,5,6,False,False,6Q_5B,1990s
 1714,Viagem,Ensino Fundamental,São Paulo,18746.0,Espanhol,4,15,2018,1,1,False,False,1Q_1B,2010s
@@ -1558,7 +1558,7 @@ ID_Cliente,Motivo,Education,Cidade,Renda_anual,Aulas,NPS,Num_Aulas,Ano_de_nascim
 1722,Trabalho,Graduação,São Paulo,90273.0,Espanhol,4,10,2017,5,6,False,False,6Q_5B,2010s
 1723,Trabalho,Doutorado,São Paulo,82571.0,Espanhol e Ingles,4,22,1988,5,6,False,False,6Q_5B,1980s
 1724,Trabalho,Doutorado,São Paulo,38513.0,Ingles,2,34,2008,2,2,False,False,2Q_2B,2000s
-1725,Estudos,Mestrado,São Paulo,16653.0,Espanhol,3,15,2005,1,1,True,False,1Q_1B,2000s
+1725,Trabalho,Mestrado,São Paulo,16653.0,Espanhol,3,15,2005,1,1,True,False,1Q_1B,2000s
 1726,Trabalho,Graduação,São Paulo,42586.0,Espanhol e Ingles,4,19,1981,2,3,False,False,3Q_2B,1980s
 1727,Estudos,Ensino Fundamental,Rio Branco,23529.0,Ingles,1,1,1991,2,1,False,False,1Q_2B,1990s
 1728,Trabalho,Mestrado,São Bernardo,74881.0,Ingles,3,9,1987,5,6,False,False,6Q_5B,1980s
@@ -1574,7 +1574,7 @@ ID_Cliente,Motivo,Education,Cidade,Renda_anual,Aulas,NPS,Num_Aulas,Ano_de_nascim
 1738,Trabalho,Graduação,São Paulo,54984.0,Espanhol,2,8,1985,3,4,False,False,4Q_3B,1980s
 1739,Trabalho,Doutorado,São Paulo,42403.0,Ingles,4,1,1997,2,3,False,False,3Q_2B,1990s
 1740,Trabalho,Graduação,São Bernardo,,Ingles,4,30,1990,3,4,False,True,4Q_3B,1990s
-1741,Viagem,Graduação,São Bernardo,37292.0,Espanhol,3,8,2009,2,2,True,False,2Q_2B,2000s
+1741,Estudos,Graduação,São Bernardo,37292.0,Espanhol,3,8,2009,2,2,True,False,2Q_2B,2000s
 1742,Viagem,Doutorado,São Bernardo,45576.0,Ingles,2,1,1971,3,3,False,False,3Q_3B,<1980
 1743,Viagem,Graduação,São Paulo,70321.0,Ingles,3,21,1973,3,5,False,False,5Q_3B,<1980
 1744,Trabalho,Doutorado,São Paulo,58086.0,Ingles,2,24,1995,3,4,False,False,4Q_3B,1990s
@@ -1599,7 +1599,7 @@ ID_Cliente,Motivo,Education,Cidade,Renda_anual,Aulas,NPS,Num_Aulas,Ano_de_nascim
 1766,Viagem,Doutorado,São Bernardo,,Ingles,4,5,2006,2,2,False,True,2Q_2B,2000s
 1767,Trabalho,Graduação,São Paulo,71853.0,Espanhol,1,17,2008,5,5,False,False,5Q_5B,2000s
 1768,Estudos,Ensino Fundamental,São Paulo,28249.0,Espanhol,4,11,1987,1,1,False,False,1Q_1B,1980s
-1769,Estudos,Mestrado,São Paulo,47808.0,Espanhol,4,15,2001,3,3,True,False,3Q_3B,2000s
+1769,Viagem,Mestrado,São Paulo,47808.0,Espanhol,4,15,2001,3,3,True,False,3Q_3B,2000s
 1770,Estudos,Doutorado,São Paulo,25509.0,Espanhol e Ingles,1,3,2000,1,1,False,False,1Q_1B,2000s
 1772,Trabalho,Graduação,Campinas,70596.0,Espanhol,2,3,2011,4,5,False,False,5Q_4B,2010s
 1773,Trabalho,Doutorado,Taubaté,85431.0,Ingles,3,27,1978,5,6,False,False,6Q_5B,<1980
@@ -1671,7 +1671,7 @@ ID_Cliente,Motivo,Education,Cidade,Renda_anual,Aulas,NPS,Num_Aulas,Ano_de_nascim
 1841,Trabalho,Mestrado,São Paulo,84953.0,Espanhol e Ingles,1,1,1979,5,6,False,False,6Q_5B,<1980
 1842,Viagem,Mestrado,São Paulo,27071.0,Espanhol,5,12,1994,1,1,False,False,1Q_1B,1990s
 1843,Trabalho,Mestrado,São Paulo,68148.0,Ingles,3,18,1983,4,5,True,False,5Q_4B,1980s
-1844,Trabalho,Mestrado,Campinas,,Ingles,3,26,1991,5,5,True,True,5Q_5B,1990s
+1844,Estudos,Mestrado,Campinas,,Ingles,3,26,1991,5,5,True,True,5Q_5B,1990s
 1846,Trabalho,Doutorado,São Paulo,4023.0,Espanhol e Ingles,2,11,1989,1,1,False,False,1Q_1B,1980s
 1847,Estudos,Graduação,São Paulo,30093.0,Espanhol e Ingles,5,25,2016,1,2,False,False,2Q_1B,2010s
 1848,Estudos,Doutorado,Campinas,57705.0,Espanhol e Ingles,4,1,1992,3,4,False,False,4Q_3B,1990s
@@ -1692,9 +1692,9 @@ ID_Cliente,Motivo,Education,Cidade,Renda_anual,Aulas,NPS,Num_Aulas,Ano_de_nascim
 1864,Viagem,Graduação,Rio Branco,69109.0,Espanhol,4,7,2008,5,5,False,False,5Q_5B,2000s
 1865,Trabalho,Graduação,Campinas,60208.0,Ingles,4,21,1999,5,4,False,False,4Q_5B,1990s
 1866,Trabalho,Mestrado,São Paulo,32889.0,Espanhol,3,7,1994,1,2,False,False,2Q_1B,1990s
-1867,Estudos,Graduação,São Paulo,34738.0,Espanhol,1,7,2010,2,2,True,False,2Q_2B,2010s
+1867,Viagem,Graduação,São Paulo,34738.0,Espanhol,1,7,2010,2,2,True,False,2Q_2B,2010s
 1868,Trabalho,Mestrado,São Paulo,30538.0,Espanhol,3,7,1997,1,2,False,False,2Q_1B,1990s
-1869,Viagem,Ensino Médio,São Bernardo,82326.0,Ingles,2,23,2003,5,6,True,False,6Q_5B,2000s
+1869,Trabalho,Ensino Médio,São Bernardo,82326.0,Ingles,2,23,2003,5,6,True,False,6Q_5B,2000s
 1870,Trabalho,Doutorado,São Bernardo,26642.0,Ingles,2,11,1993,1,1,False,False,1Q_1B,1990s
 1871,Estudos,Graduação,São Paulo,69932.0,Ingles,2,15,1990,4,5,False,False,5Q_4B,1990s
 1872,Estudos,Graduação,São Paulo,,Espanhol,1,7,1998,2,3,False,True,3Q_2B,1990s
@@ -1708,7 +1708,7 @@ ID_Cliente,Motivo,Education,Cidade,Renda_anual,Aulas,NPS,Num_Aulas,Ano_de_nascim
 1880,Trabalho,Doutorado,São Paulo,70643.0,Ingles,4,13,2010,4,5,False,False,5Q_4B,2010s
 1881,Trabalho,Doutorado,Campinas,30396.0,Ingles,4,20,1995,1,2,False,False,2Q_1B,1990s
 1882,Viagem,Doutorado,São Paulo,50616.0,Ingles,2,29,1994,3,3,False,False,3Q_3B,1990s
-1883,Trabalho,Mestrado,São Bernardo,,Espanhol,1,7,1995,4,4,True,True,4Q_4B,1990s
+1883,Estudos,Mestrado,São Bernardo,,Espanhol,1,7,1995,4,4,True,True,4Q_4B,1990s
 1884,Trabalho,Doutorado,São Paulo,30298.0,Ingles,3,1,2011,1,2,False,False,2Q_1B,2010s
 1885,Estudos,Graduação,São Paulo,,Ingles,5,1,2010,3,4,False,True,4Q_3B,2010s
 1888,Viagem,Graduação,São Bernardo,76532.0,Ingles,4,12,2001,5,6,False,False,6Q_5B,2000s
@@ -1735,7 +1735,7 @@ ID_Cliente,Motivo,Education,Cidade,Renda_anual,Aulas,NPS,Num_Aulas,Ano_de_nascim
 1909,Trabalho,Mestrado,São Paulo,31535.0,Espanhol e Ingles,4,40,2006,1,2,False,False,2Q_1B,2000s
 1910,Viagem,Ensino Médio,São Paulo,,Espanhol,4,13,1986,5,6,False,True,6Q_5B,1980s
 1911,Estudos,Graduação,Campinas,67384.0,Espanhol e Ingles,3,22,1996,4,5,True,False,5Q_4B,1990s
-1912,Viagem,Mestrado,Rio Branco,80573.0,Ingles,4,29,1997,5,6,True,False,6Q_5B,1990s
+1912,Trabalho,Mestrado,Rio Branco,80573.0,Ingles,4,29,1997,5,6,True,False,6Q_5B,1990s
 1913,Estudos,Graduação,São Paulo,77870.0,Ingles,4,3,1993,5,6,False,False,6Q_5B,1990s
 1914,Trabalho,Doutorado,São Paulo,52278.0,Ingles,5,36,1989,3,4,False,False,4Q_3B,1980s
 1915,Trabalho,Graduação,São Bernardo,57107.0,Ingles,2,19,1994,3,4,False,False,4Q_3B,1990s
@@ -1766,7 +1766,7 @@ ID_Cliente,Motivo,Education,Cidade,Renda_anual,Aulas,NPS,Num_Aulas,Ano_de_nascim
 1941,Estudos,Graduação,São Paulo,28320.0,Espanhol,3,11,1976,1,1,False,False,1Q_1B,<1980
 1942,Estudos,Graduação,São Bernardo,23763.0,Espanhol,1,10,2003,1,1,False,False,1Q_1B,2000s
 1943,Trabalho,Graduação,São Bernardo,72570.0,Ingles,2,21,2010,5,5,False,False,5Q_5B,2010s
-1944,Estudos,Mestrado,São Bernardo,34529.0,Espanhol,1,16,2002,2,2,True,False,2Q_2B,2000s
+1944,Viagem,Mestrado,São Bernardo,34529.0,Espanhol,1,16,2002,2,2,True,False,2Q_2B,2000s
 1945,Trabalho,Graduação,São Paulo,70792.0,Ingles,2,5,1977,4,5,False,False,5Q_4B,<1980
 1946,Estudos,Graduação,São Paulo,63211.0,Ingles,2,31,2008,4,5,False,False,5Q_4B,2000s
 1947,Trabalho,Mestrado,São Paulo,83891.0,Ingles,4,12,2000,5,6,False,False,6Q_5B,2000s
@@ -1788,7 +1788,7 @@ ID_Cliente,Motivo,Education,Cidade,Renda_anual,Aulas,NPS,Num_Aulas,Ano_de_nascim
 1966,Trabalho,Graduação,São Paulo,64474.0,Ingles,4,32,1998,4,5,False,False,5Q_4B,1990s
 1967,Trabalho,Graduação,São Paulo,77226.0,Ingles,3,20,1989,5,6,False,False,6Q_5B,1980s
 1968,Trabalho,Graduação,São Paulo,72643.0,Ingles,5,16,1975,5,5,False,False,5Q_5B,<1980
-1969,Estudos,Mestrado,São Paulo,85738.0,Espanhol,1,16,2004,4,6,True,False,6Q_4B,2000s
+1969,Trabalho,Mestrado,São Paulo,85738.0,Espanhol,1,16,2004,4,6,True,False,6Q_4B,2000s
 1970,Estudos,Graduação,São Paulo,55686.0,Ingles,3,20,1992,2,4,False,False,4Q_2B,1990s
 1971,Estudos,Graduação,São Bernardo,39062.0,Espanhol e Ingles,5,21,2009,2,2,False,False,2Q_2B,2000s
 1972,Trabalho,Graduação,São Paulo,34600.0,Espanhol,3,14,1997,2,2,False,False,2Q_2B,1990s
@@ -1904,10 +1904,10 @@ ID_Cliente,Motivo,Education,Cidade,Renda_anual,Aulas,NPS,Num_Aulas,Ano_de_nascim
 2087,Estudos,Graduação,São Paulo,79823.0,Espanhol,3,13,1985,5,6,False,False,6Q_5B,1980s
 2088,Trabalho,Graduação,São Bernardo,30828.0,Espanhol,4,10,2006,1,2,False,False,2Q_1B,2000s
 2089,Trabalho,Mestrado,São Paulo,34109.0,Espanhol,1,19,1997,2,2,False,False,2Q_2B,1990s
-2090,Trabalho,Mestrado,São Bernardo,53367.0,Ingles,4,7,2000,3,4,True,False,4Q_3B,2000s
+2090,Viagem,Mestrado,São Bernardo,53367.0,Ingles,4,7,2000,3,4,True,False,4Q_3B,2000s
 2091,Estudos,Ensino Fundamental,Taubaté,22390.0,Espanhol,1,5,1995,2,1,False,False,1Q_2B,1990s
 2093,Estudos,Graduação,São Paulo,,Ingles,4,1,2019,5,6,False,True,6Q_5B,2010s
-2094,Estudos,Mestrado,São Paulo,49912.0,Espanhol,1,2,1975,3,3,True,False,3Q_3B,<1980
+2094,Trabalho,Mestrado,São Paulo,49912.0,Espanhol,1,2,1975,3,3,True,False,3Q_3B,<1980
 2095,Trabalho,Doutorado,São Bernardo,48699.0,Ingles,4,23,1976,3,3,False,False,3Q_3B,<1980
 2096,Estudos,Graduação,São Paulo,80144.0,Espanhol,4,7,2001,5,6,False,False,6Q_5B,2000s
 2098,Trabalho,Mestrado,São Bernardo,81929.0,Ingles,4,20,2002,5,6,False,False,6Q_5B,2000s
@@ -1928,7 +1928,7 @@ ID_Cliente,Motivo,Education,Cidade,Renda_anual,Aulas,NPS,Num_Aulas,Ano_de_nascim
 2113,Trabalho,Mestrado,Campinas,43018.0,Espanhol,4,17,2000,2,3,False,False,3Q_2B,2000s
 2115,Trabalho,Mestrado,São Paulo,66476.0,Ingles,3,16,1995,4,5,False,False,5Q_4B,1990s
 2116,Viagem,Ensino Médio,São Paulo,27733.0,Espanhol,2,10,2007,1,1,False,False,1Q_1B,2000s
-2118,Viagem,Mestrado,São Paulo,72217.0,Espanhol,2,16,1988,4,5,True,False,5Q_4B,1980s
+2118,Trabalho,Mestrado,São Paulo,72217.0,Espanhol,2,16,1988,4,5,True,False,5Q_4B,1980s
 2119,Estudos,Graduação,Campinas,25818.0,Ingles,5,14,1997,1,1,False,False,1Q_1B,1990s
 2120,Trabalho,Mestrado,São Bernardo,37509.0,Ingles,2,29,2002,2,2,False,False,2Q_2B,2000s
 2121,Estudos,Ensino Médio,São Paulo,25176.0,Espanhol,2,12,2002,1,1,False,False,1Q_1B,2000s
@@ -1940,7 +1940,7 @@ ID_Cliente,Motivo,Education,Cidade,Renda_anual,Aulas,NPS,Num_Aulas,Ano_de_nascim
 2128,Trabalho,Doutorado,Campinas,65220.0,Ingles,2,23,1991,4,5,False,False,5Q_4B,1990s
 2129,Trabalho,Graduação,São Paulo,33590.0,Espanhol,3,12,2000,2,2,False,False,2Q_2B,2000s
 2130,Estudos,Graduação,São Paulo,,Espanhol,1,13,2002,1,2,False,True,2Q_1B,2000s
-2131,Viagem,Mestrado,São Paulo,72309.0,Ingles,4,10,2002,4,5,True,False,5Q_4B,2000s
+2131,Trabalho,Mestrado,São Paulo,72309.0,Ingles,4,10,2002,4,5,True,False,5Q_4B,2000s
 2133,Viagem,Ensino Fundamental,São Paulo,16005.0,Espanhol,3,17,2006,1,1,False,False,1Q_1B,2000s
 2135,Trabalho,Graduação,Campinas,58692.0,Ingles,5,20,1991,4,4,False,False,4Q_4B,1990s
 2136,Trabalho,Graduação,São Paulo,40590.0,Espanhol,1,11,1995,1,3,False,False,3Q_1B,1990s
@@ -2023,9 +2023,9 @@ ID_Cliente,Motivo,Education,Cidade,Renda_anual,Aulas,NPS,Num_Aulas,Ano_de_nascim
 2218,Estudos,Graduação,Campinas,,Espanhol,2,13,2004,1,1,False,True,1Q_1B,2000s
 2219,Trabalho,Mestrado,São Paulo,40101.0,Espanhol,1,17,2011,2,2,False,False,2Q_2B,2010s
 2220,Trabalho,Graduação,São Bernardo,58025.0,Espanhol,2,15,2005,3,4,False,False,4Q_3B,2000s
-2221,Viagem,Mestrado,São Paulo,75777.0,Ingles,4,33,2008,5,6,True,False,6Q_5B,2000s
+2221,Trabalho,Mestrado,São Paulo,75777.0,Ingles,4,33,2008,5,6,True,False,6Q_5B,2000s
 2222,Estudos,Ensino Médio,São Paulo,7500.0,Espanhol,4,10,2005,1,1,False,False,1Q_1B,2000s
-2223,Estudos,Mestrado,São Paulo,33562.0,Espanhol,3,7,1989,2,2,True,False,2Q_2B,1980s
+2223,Viagem,Mestrado,São Paulo,33562.0,Espanhol,3,7,1989,2,2,True,False,2Q_2B,1980s
 2224,Trabalho,Doutorado,São Paulo,57642.0,Ingles,4,2,1996,2,4,False,False,4Q_2B,1990s
 2225,Estudos,Graduação,São Paulo,58554.0,Ingles,4,31,1994,4,4,False,False,4Q_4B,1990s
 2226,Estudos,Graduação,São Paulo,63777.0,Ingles,3,20,2005,4,5,False,False,5Q_4B,2000s
